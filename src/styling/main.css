@@ -103,6 +103,7 @@ body {
     flex-direction: column;
     width: 100%;
     background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .navigation__top {
@@ -168,12 +169,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px;
 }
 
 .navigation__bottom li a {
     display: block;
     width: 100%;
+    padding: 8px 0;
     text-decoration: none;
     color: black;
 }
